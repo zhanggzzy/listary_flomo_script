@@ -18,7 +18,7 @@ except FileNotFoundError:
 # if there is no content, terminate the program
 if not content:
     print("Please enter some text to send to Flomo")
-    exit(1)
+    sys.exit(1)
     
 
 # set the headers and payload for the request
