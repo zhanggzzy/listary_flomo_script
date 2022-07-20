@@ -38,7 +38,7 @@ Failed to Post to Flomo
 
 ## Listary
 
-使用pyinstaller生成exe文件。
+使用pyinstaller生成exe文件，或从Release目录下载。
 
 ```
 pyinstaller -F main.py
